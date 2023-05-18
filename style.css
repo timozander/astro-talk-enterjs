@@ -1,0 +1,15 @@
+.slidev-code {
+  --slidev-code-font-size: 24px;
+  --slidev-code-line-height: 28px;
+  --slidev-code-padding: 18px;
+}
+
+:not(pre) > code::before,
+:not(pre) > code::after {
+  content: "" !important;
+  opacity: 1;
+}
+
+:not(pre) > code {
+  padding: 5px;
+}
