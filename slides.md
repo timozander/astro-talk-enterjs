@@ -124,6 +124,7 @@ svg {
 - Konkurrenz: SSGs
 - Auswahl an Frameworks: welches nimmt man?
 
+<br />
 
 - jeder hat Lieblings Framework
 - React vs Vue Kampf, "Svelte ist Revolution" 
@@ -466,7 +467,7 @@ Starten des Entwicklungs-Servers mit `pnpm dev`
 klick
 
 - Astro-Config: Add-ons, Verhalten des Frameworks, ...
-beispie vue TODO
+- z.B. vue als "integration" hinzufügen
 
 klick 
 
@@ -511,7 +512,6 @@ Astro-Webseiten bestehen aus **Komponenten**, **Layouts** und **Seiten**.
 
 ---
 layout: center
-clicks: 1
 ---
 
 # Anatomie einer Astro Seite
@@ -519,14 +519,12 @@ clicks: 1
 <div>
 <div class="relative mt-4">
     <img src="/images/blog_anatomy.png" class="relative" />
-    <v-click>
     <div class="highlight"></div>
     <div class="highlight layout"></div>
     <div class="highlight component"></div>
-    </v-click>
 </div>
 
-<div class="text" v-click="1">
+<div class="text">
   <span class="highlight" /> Seite <br/>
   <span class="highlight layout" /> Layout <br/>
   <span class="highlight component" /> Komponente
@@ -586,7 +584,6 @@ clicks: 1
 - Beispiel: persönliche Seite (mit Astro)
 - Startseite = Page
 
-klick
 <br/>
 
 - Layout: gesamte Seite, von `<head>` bis `</body>`
@@ -805,7 +802,6 @@ import Date from "../components/Date.astro";
 -->
 
 ---
----
 
 # File-based routing
 
@@ -826,9 +822,7 @@ Der **Dateiname** bestimmt die **URL** der Seite
   
 ```
 
-
-
-<!-- 
+<!--
 - File-based Routing
 - Verzeichnisstruktur bestimmt URLs (Slide erklären)
 - Dateitypen: .astro, .md, .html, .ts
@@ -836,14 +830,13 @@ Der **Dateiname** bestimmt die **URL** der Seite
 klick
 <br/>
 
-- unter Blog: eckige Klammern im Dateinamne
+- unter Blog: eckige Klammern im Dateiname
 - dynamische Route
 - nicht nur statische Pfade wie Home oder About
 - Beispiel Blog: nicht für jeden Beitrag Seite copy-pasten
 
 LIVE CODING 01-start
 -->
-
 
 ---
 layout: section
